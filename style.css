@@ -1,0 +1,41 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+#top {
+  min-height: 50vh;
+  background-color: #00BBFF;
+}
+
+#top h1 {
+  padding-top: 38vh;
+  font-size: 3em;
+  letter-spacing: .1em;
+  color: white;
+}
+
+#bottom  {
+  padding-top: 8vh;
+  color: #00bbff;
+}
+#bottom p {
+  font-size: 1.4em;
+  line-height: 2.3em;
+}
+
+p#link {
+  font-size: 1.2em;  
+}
+
+p#link:hover {
+  transition: all 500ms;
+  opacity: 0.5;
+}
